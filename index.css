@@ -157,6 +157,10 @@ section {
   font-weight: 500;
 }
 
+.about-me img{
+  margin-bottom: 3em;
+}
+
 .skills {
   background-color: #e43957;
 }
@@ -165,7 +169,7 @@ section {
   background-color: white;
   padding: 2em;
   border-radius: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 5em; /* 1em */
 }
 
 .skills-container ul li .icon-container {
@@ -203,13 +207,11 @@ section {
 
 .portfolio {
   background-color: #f7f7f7;
-  overflow: hidden;
 }
 
 .portfolio-container img {
   border-radius: 1em;
   margin-bottom: 2em;
-  overflow: hidden;
 }
 
 .tech-stack .subtitle {
