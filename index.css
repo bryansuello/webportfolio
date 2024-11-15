@@ -1,5 +1,3 @@
-/* SASS */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
   height: 100vh;
@@ -205,11 +203,13 @@ section {
 
 .portfolio {
   background-color: #f7f7f7;
+  overflow: hidden;
 }
 
 .portfolio-container img {
   border-radius: 1em;
   margin-bottom: 2em;
+  overflow: hidden;
 }
 
 .tech-stack .subtitle {
